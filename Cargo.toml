@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["crhino <piraino.chris@gmail.com>"]
 
 [dependencies]
-void = "0.0.5"
 
 [dev-dependencies]
+void = "0.0.5"
 ferrous = "0.1.0"

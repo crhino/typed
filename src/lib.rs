@@ -2,10 +2,12 @@
 //!
 //! Compile-time, polymorphic containers that do not rely on trait objects.
 
-extern crate void;
+#[deny(dead_code, missing_docs)]
 
+#[cfg(test)] extern crate void;
 #[cfg(test)] extern crate ferrous;
 
+#[macro_export]
 macro_rules! typed_stack {
     ($tr:ident) => {
         use void::Void;
